@@ -1,0 +1,6 @@
+{
+  "name": "RioAr noar - Propaganda Aérea",
+  "description": "Especialistas em veiculação de propaganda aérea com mais de 30 anos de experiência, 30.000 horas de voo e homologação ANAC nas praias do Rio de Janeiro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

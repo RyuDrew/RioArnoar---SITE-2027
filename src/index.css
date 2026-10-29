@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom aviation-inspired animations */
+@keyframes floatPlane {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+@keyframes waveBanner {
+  0%, 100% {
+    transform: skewY(0deg) scaleY(1);
+  }
+  50% {
+    transform: skewY(-1deg) scaleY(0.98);
+  }
+}
+
+.animate-plane-float {
+  animation: floatPlane 5s ease-in-out infinite;
+}
+
+.animate-banner-wave {
+  animation: waveBanner 3s ease-in-out infinite;
+}
